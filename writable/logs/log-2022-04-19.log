@@ -1,0 +1,14 @@
+CRITICAL - 2022-04-19 08:34:14 --> Undefined variable: is_admin
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Cidades.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 19, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->index()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 08:34:33 --> Undefined variable: is_admin
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Cidades.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 20, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->index()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

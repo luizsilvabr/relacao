@@ -1,0 +1,6 @@
+CRITICAL - 2022-04-27 14:07:27 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl')
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\wamp64\www\relacao2.0\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\wamp64\www\relacao2.0\index.php(28): require('C:\\wamp64\\www\\r...')
+#4 {main}

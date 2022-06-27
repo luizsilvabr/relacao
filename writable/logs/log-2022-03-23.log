@@ -1,0 +1,225 @@
+CRITICAL - 2022-03-23 07:38:30 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarServidor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarServid...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(41): view('adicionarServid...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->adicionar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 07:44:37 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarServidor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarServid...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(41): view('adicionarServid...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->adicionar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 07:44:37 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarServidor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarServid...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(41): view('adicionarServid...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->adicionar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:57:00 --> There is no data to insert.
+#0 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(35): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->adicionar()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 09:08:34 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarServidor.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarServid...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(63): view('adicionarServid...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->editar('133')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 09:08:47 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarServidor.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarServid...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(64): view('adicionarServid...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->editar('133')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 09:11:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`ponto`, CONSTRAINT `ID_SERVIDOR` FOREIGN KEY (`SERVIDORPONTO`) REFERENCES `servidor` (`IDSERVIDOR`))
+CRITICAL - 2022-03-23 09:11:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`ponto`, CONSTRAINT `ID_SERVIDOR` FOREIGN KEY (`SERVIDORPONTO`) REFERENCES `servidor` (`IDSERVIDOR`))
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `se...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `se...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `se...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `se...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\relacao2.0\app\Controllers\Servidores.php(74): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Servidores->excluir('1')
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servidores))
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-23 09:14:02 --> Invalid file: adicionarCidade.php
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adicionarCidade...')
+#1 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarCidade', Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\Cidades.php(42): view('adicionarCidade', Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->adicionar()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 09:37:04 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarCidade.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarCidade', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Cidades.php(42): view('adicionarCidade', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->adicionar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 09:43:10 --> Undefined property: stdClass::$IDSERVIDOR
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarCidade.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarCidade', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Cidades.php(66): view('adicionarCidade', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->editar('81')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 10:24:34 --> Invalid file: modelos.php
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modelos.php')
+#1 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('modelos', Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\Modelos.php(23): view('modelos', Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Modelos->index()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-23 10:25:21 --> Undefined variable $cidades
+#0 C:\xampp\htdocs\relacao2.0\app\Views\modelos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('modelos', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Modelos.php(23): view('modelos', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Modelos->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 13:59:23 --> Invalid file: adicionarModoOperacao.php
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adicionarModoOp...')
+#1 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarModoOp...', Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\ModoOperacao.php(43): view('adicionarModoOp...', Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\ModoOperacao->adicionar()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModoOperacao))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-23 14:01:17 --> Unknown column 'NOMEMODO' in 'where clause'
+CRITICAL - 2022-03-23 14:01:17 --> Unknown column 'NOMEMODO' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('TEste', 'NOMEMODO', Array, NULL)
+#6 C:\xampp\htdocs\relacao2.0\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('NOMEMODO', 'NOMEMODO', 'TEste', Array, Array)
+#7 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#8 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#9 C:\xampp\htdocs\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#10 C:\xampp\htdocs\relacao2.0\app\Controllers\ModoOperacao.php(36): CodeIgniter\Model->insert(Array)
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\ModoOperacao->adicionar()
+#12 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModoOperacao))
+#13 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-03-23 14:03:43 --> Undefined property: stdClass::$NOMECIDADE
+#0 C:\xampp\htdocs\relacao2.0\app\Views\adicionarModoOperacao.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('adicionarModoOp...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\ModoOperacao.php(64): view('adicionarModoOp...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\ModoOperacao->editar('1')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModoOperacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 14:04:07 --> Unknown column 'NOMEMODO' in 'where clause'
+CRITICAL - 2022-03-23 14:04:07 --> Unknown column 'NOMEMODO' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('teste', 'NOMEMODO', Array, NULL)
+#6 C:\xampp\htdocs\relacao2.0\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('NOMEMODO', 'NOMEMODO', 'teste', Array, Array)
+#7 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#8 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#9 C:\xampp\htdocs\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#10 C:\xampp\htdocs\relacao2.0\app\Controllers\ModoOperacao.php(36): CodeIgniter\Model->insert(Array)
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\ModoOperacao->adicionar()
+#12 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModoOperacao))
+#13 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+ERROR - 2022-03-23 18:38:35 --> MySQL server has gone away
+CRITICAL - 2022-03-23 18:38:35 --> MySQL server has gone away
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\relacao2.0\app\Controllers\Modelos.php(20): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Modelos->index()
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos))
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-23 18:38:40 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-03-23 18:38:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\relacao2.0\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Modelos.php(20): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Modelos->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 18:38:44 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-03-23 18:38:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\relacao2.0\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Modelos.php(20): CodeIgniter\BaseModel->find()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Modelos->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelos))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

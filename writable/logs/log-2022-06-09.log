@@ -1,0 +1,14 @@
+CRITICAL - 2022-06-09 14:36:06 --> Undefined array key "SINALLOCAL"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 352)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarInfo('2078')
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 14:36:20 --> Undefined array key "SINALLOCAL"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 352)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarInfo('2078')
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

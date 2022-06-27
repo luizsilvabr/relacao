@@ -1,0 +1,1842 @@
+CRITICAL - 2022-03-07 16:37:56 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\relacao2.0\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\relacao2.0\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-07 16:38:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\relacao2.0\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\relacao2.0\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-03-07 12:05:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-07 12:05:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-07 12:09:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-07 12:09:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-07 12:11:43 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-03-07 12:11:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-07 12:12:24 --> Table 'relacao.usuarios' doesn't exist
+CRITICAL - 2022-03-07 12:12:24 --> Table 'relacao.usuarios' doesn't exist
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-07 12:12:39 --> Unknown column 'nome' in 'where clause'
+CRITICAL - 2022-03-07 12:12:39 --> Unknown column 'nome' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-07 12:13:04 --> Unknown column 'nome' in 'where clause'
+CRITICAL - 2022-03-07 12:13:04 --> Unknown column 'nome' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\relacao2.0\app\Models\UsuariosModel.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome('admin')
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-07 12:13:21 --> Undefined array key "senha"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:14:33 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:15:19 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:16:44 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:16:51 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:16:55 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:24:58 --> App\Models\UsuariosModel::getByNome(): Argument #1 ($nome) must be of type string, null given, called in C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php on line 33
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): App\Models\UsuariosModel->getByNome(NULL)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:37:04 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(19): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:39:59 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(20): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:40:34 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(20): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:40:39 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(20): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:41:34 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(20): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:43:07 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(20): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 12:46:24 --> Undefined variable $msg
+#0 C:\xampp\htdocs\relacao2.0\app\Views\footer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(424): CodeIgniter\View\View->render('footer', NULL, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(3): CodeIgniter\View\View->include('footer')
+#5 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#8 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao')
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#10 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#11 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-07 13:24:59 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:26:13 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:26:15 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:17 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:18 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:18 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:18 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:18 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:18 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:20 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:21 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:22 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:22 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:22 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:26:25 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:31:42 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:31:43 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:31:43 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:31:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:04 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:05 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:05 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:05 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:05 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:32:11 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 13:34:09 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:34:14 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:34:16 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:34:17 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:35:33 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:35:48 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 13:56:32 --> Undefined array key "USUARIO"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:04:39 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:07:08 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:07:40 --> Array to string conversion
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:08:04 --> Array to string conversion
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:08:27 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:09:45 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:10:13 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:10:15 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:10:18 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:10:18 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:11:42 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:12:13 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:12:16 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:13:28 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:13:30 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:13:34 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:14:03 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:14:05 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:14:05 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:14:06 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:15:42 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:19:04 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:19:28 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:20:00 --> Undefined array key "USUARIO"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-07 14:20:16 --> Unknown column 'login.id' in 'where clause'
+CRITICAL - 2022-03-07 14:20:16 --> Unknown column 'login.id' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'TYPE')
+#6 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(22): CodeIgniter\BaseModel->find('TYPE')
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-07 14:20:58 --> Unknown column 'login.id' in 'where clause'
+CRITICAL - 2022-03-07 14:20:58 --> Unknown column 'login.id' in 'where clause'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\relacao2.0\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'TYPE')
+#6 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(22): CodeIgniter\BaseModel->find('TYPE')
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#9 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-07 14:22:13 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:22:31 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:09 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:11 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:11 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:11 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:11 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:11 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:24:23 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:25:01 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:27:14 --> App\Models\UsuariosModel::getByNome(): Return value must be of type array, stdClass returned
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Usuarios.php(32): App\Models\UsuariosModel->getByNome('isadmin')
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Usuarios->signIn()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:27:30 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(28): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:41 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:42 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:43 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:43 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:43 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:43 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:43 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:44 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:45 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:28:45 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:19 --> Attempt to read property "TYPE" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:26 --> Attempt to read property "type" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:26 --> Attempt to read property "type" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:26 --> Attempt to read property "type" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:27 --> Attempt to read property "type" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:27 --> Attempt to read property "type" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:33 --> Attempt to read property "USUARIOS" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:34 --> Attempt to read property "USUARIOS" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:34 --> Attempt to read property "USUARIOS" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:34 --> Attempt to read property "USUARIOS" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:34 --> Attempt to read property "USUARIOS" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:38 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:43 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:43 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:43 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:43 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:43 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:29:44 --> Attempt to read property "USUARIO" on array
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(24): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:31:00 --> Undefined property: App\Controllers\Relacao::$db
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:32:37 --> Undefined variable $is_admin
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:38:05 --> Array to string conversion
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:38:17 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:47:19 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:47:41 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:47:41 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:47:41 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:07 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:07 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:08 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:09 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:09 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:09 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:09 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:48:09 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:41 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:42 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:42 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:42 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:42 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:43 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:54:46 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 14:55:23 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:23 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:24 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:24 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:24 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:24 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:24 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:44 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:45 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:46 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:46 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:46 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:59 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:59 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:55:59 --> Undefined array key "is_admin"
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(21): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-07 14:57:19 --> Undefined array key "TYPE"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

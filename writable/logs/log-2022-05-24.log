@@ -1,0 +1,578 @@
+CRITICAL - 2022-05-24 06:06:26 --> Undefined property: stdClass::$conecta
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 260)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 06:22:18 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 06:26:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 271)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 06:43:28 --> Undefined variable $enviaSinal
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 06:44:06 --> Undefined variable $enviaSinal
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 07:16:35 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, string given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): mysqli_num_rows('AVARE\n')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 07:16:49 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, stdClass given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): mysqli_num_rows(Object(stdClass))
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:04:16 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:12:36 --> Attempt to read property "cidade" on string
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:13:08 --> Attempt to read property "CIDADE" on string
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:14:26 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 08:16:10 --> Attempt to read property "cidade" on string
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:29:03 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, stdClass given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(301): mysqli_num_rows(Object(stdClass))
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 08:29:32 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, stdClass given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(301): mysqli_fetch_array(Object(stdClass))
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 09:41:08 --> mysqli_connect(): (HY000/2002): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(28): view('relacao', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-24 09:53:08 --> mysqli_connect(): (HY000/2002): Uma conexão estabelecida foi anulada pelo software no computador host
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(28): view('relacao', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-24 10:00:55 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, stdClass given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(301): mysqli_fetch_array(Object(stdClass))
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 10:02:59 --> Attempt to read property "cidade" on string
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 10:03:16 --> Attempt to read property "cidade" on string
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 10:04:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 10:04:28 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 10:11:36 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 12:47:05 --> Unmatched '}'
+#0 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#2 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(28): view('relacao', Array)
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->index()
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 12:49:00 --> Undefined variable $teste
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(297): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 297)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:49:42 --> Undefined variable $teste
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 298)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:52:57 --> array_pop(): Argument #1 ($array) must be of type array, string given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(302): array_pop('AVARE\n')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:53:52 --> array_pop(): Argument #1 ($array) must be of type array, string given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(303): array_pop('AVARE\n')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:54:16 --> array_pop(): Argument #1 ($array) must be of type array, string given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(304): array_pop('AVARE\n')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:54:22 --> array_pop(): Argument #1 ($array) must be of type array, string given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(304): array_pop('AVARE\n')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:54:38 --> array_pop(): Argument #1 ($array) must be of type array, stdClass given
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(304): array_pop(Object(stdClass))
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 12:57:22 --> Undefined variable $table
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 289)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-24 13:23:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM PONTO
+            LEFT JOIN EQUIPAMENTO ON EQUIPAMENTO.PONTOEQUIPAMENTO = ' at line 17
+CRITICAL - 2022-05-24 13:23:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM PONTO
+            LEFT JOIN EQUIPAMENTO ON EQUIPAMENTO.PONTOEQUIPAMENTO = ' at line 17
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(292): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-24 13:23:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM PONTO
+            LEFT JOIN EQUIPAMENTO ON EQUIPAMENTO.PONTOEQUIPAMENTO = ' at line 17
+CRITICAL - 2022-05-24 13:23:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM PONTO
+            LEFT JOIN EQUIPAMENTO ON EQUIPAMENTO.PONTOEQUIPAMENTO = ' at line 17
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(292): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 14:36:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '�ÓIS PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(372): mysqli_query(Object(mysqli), 'SELECT NOMEPONT...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:38:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMEPONT...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:38:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT CIDADE F...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:41:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:42:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '�ÓIS PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(378): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:44:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:44:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:47:28 --> Undefined property: stdClass::$CIDADE
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 378)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:47:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(379): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:51:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(380): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:53:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(380): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-24 14:53:55 --> Error connecting to the database: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+CRITICAL - 2022-05-24 14:53:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-24 14:54:05 --> Error connecting to the database: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+CRITICAL - 2022-05-24 14:54:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(127): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-24 14:54:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(380): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:55:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'PAULISTA' at line 1
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(380): mysqli_query(Object(mysqli), 'SELECT NOMECIDA...')
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(354): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 15:00:46 --> Undefined property: stdClass::$IDCIDADE
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(375): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 375)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(358): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-24 15:01:27 --> Unknown column 'EQUIPAMENTO.IDCIDADE' in 'field list'
+CRITICAL - 2022-05-24 15:01:27 --> Unknown column 'EQUIPAMENTO.IDCIDADE' in 'field list'
+#0 C:\xampp\htdocs\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(153): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 15:10:06 --> Undefined variable $selectMods
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacao.php(405): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 405)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\Relacao.php(364): view('relacao', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,52 @@
+CRITICAL - 2022-05-16 11:06:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 11:09:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 11:10:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 11:10:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 11:10:40 --> Undefined variable $pager
+#0 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#4 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(140): view('relacaoUnificad...', Array)
+#5 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->pesquisar()
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-16 11:12:29 --> Method name must be a string
+#0 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->pesquisar()
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-16 14:45:37 --> Undefined array key "pagina"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->pesquisar()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 14:50:39 --> Undefined array key "pagina"
+#0 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->pesquisar()
+#2 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#3 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 14:51:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 14:51:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 133015392 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-16 15:05:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 133015392 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

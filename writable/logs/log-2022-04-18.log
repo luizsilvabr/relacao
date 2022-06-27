@@ -1,0 +1,791 @@
+CRITICAL - 2022-04-18 07:32:05 --> Undefined variable: selectCidades
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(360): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 360, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(116): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 07:42:16 --> Undefined variable: equipamento
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 136, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 08:04:22 --> Undefined property: stdClass::$ID
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 343, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:05:08 --> Undefined property: stdClass::$DESCRICAOEQUIPAMENTO
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(398): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 398, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:06:36 --> Undefined property: stdClass::$descricao
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(398): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 398, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:08:04 --> Undefined property: stdClass::$COMENTARIOEQUIPAMENTO
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(409): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 409, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:13:56 --> Undefined property: stdClass::$idponto
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 324, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:16:09 --> Undefined property: stdClass::$idponto
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 324, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 08:16:40 --> Undefined property: stdClass::$idponto
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 324, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(136): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-18 08:19:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 08:19:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(159): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 09:11:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 09:11:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(159): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 09:13:57 --> Cannot add or update a child row: a foreign key constraint fails (`relacao`.`ponto`, CONSTRAINT `ID_SERVIDOR` FOREIGN KEY (`SERVIDORPONTO`) REFERENCES `servidor` (`IDSERVIDOR`))
+CRITICAL - 2022-04-18 09:13:57 --> Cannot add or update a child row: a foreign key constraint fails (`relacao`.`ponto`, CONSTRAINT `ID_SERVIDOR` FOREIGN KEY (`SERVIDORPONTO`) REFERENCES `servidor` (`IDSERVIDOR`))
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `ponto` ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `ponto` ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `ponto` ...')
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `ponto` ...', Array, false)
+#4 C:\wamp64\www\relacao2.0\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\relacao2.0\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\relacao2.0\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(253): CodeIgniter\Model->update('2077', Object(stdClass))
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarTable('2077')
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#10 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-18 09:18:56 --> Creating default object from empty value
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\r...', 240, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarTable('2077')
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 09:20:55 --> Creating default object from empty value
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\r...', 240, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarTable('2077')
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 09:37:33 --> Creating default object from empty value
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\r...', 240, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editarTable('2077')
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 09:43:16 --> Undefined variable: columnSearched
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 102, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(200): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 09:45:05 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\wamp64\www\relacao2.0\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('relacao/pesquis...')
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('relacao/pesquis...')
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 10:13:47 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56639488 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-18 10:13:57 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 54038888 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-18 10:23:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:23:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:23:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:23:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:24:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:24:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:25:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:25:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:25:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:25:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:25:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:25:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:25:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:25:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:27:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:27:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:30:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:30:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:30:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:30:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:30:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:30:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 10:32:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:32:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(171): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 10:32:38 --> Undefined variable: searched
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 22, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(148): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-18 10:33:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 10:33:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 11:23:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 11:23:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 11:24:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 11:24:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 11:24:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 11:24:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:04:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:04:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:04:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:04:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:04:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:04:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:08:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:08:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:09:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:09:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:09:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:09:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:09:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:09:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:24:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:24:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:24:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:24:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:25:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:25:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 13:28:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 13:28:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:18:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:18:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:33:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:36:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:36:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:36:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:36:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-18 14:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-18 14:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(173): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-18 14:40:37 --> Undefined variable: table
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 158, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(150): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-18 14:42:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+CRITICAL - 2022-04-18 14:42:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `po...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\wamp64\www\relacao2.0\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\wamp64\www\relacao2.0\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(309): CodeIgniter\BaseModel->delete(Array)
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->excluirInfo('2077')
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-18 15:22:25 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+CRITICAL - 2022-04-18 15:22:25 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `po...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\wamp64\www\relacao2.0\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\wamp64\www\relacao2.0\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(309): CodeIgniter\BaseModel->delete(Array)
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->excluirInfo('13')
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-18 15:22:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+CRITICAL - 2022-04-18 15:22:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `po...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\wamp64\www\relacao2.0\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\wamp64\www\relacao2.0\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(309): CodeIgniter\BaseModel->delete(Array)
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->excluirInfo('13')
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

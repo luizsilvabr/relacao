@@ -1,0 +1,68 @@
+CRITICAL - 2022-05-20 14:50:28 --> mysqli_connect(): (HY000/2002): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(28): view('relacaoUnificad...', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:50:29 --> mysqli_connect(): (HY000/2002): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(28): view('relacaoUnificad...', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:50:57 --> mysqli_connect(): (HY000/2002): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(28): view('relacaoUnificad...', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:52:28 --> mysqli_connect(): (HY000/2002): Uma conexão estabelecida foi anulada pelo software no computador host
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(28): view('relacaoUnificad...', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-20 14:54:27 --> mysqli_connect(): (HY000/2002): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\relacao2.0\app\Views\relacaoUnificada.php(12): mysqli_connect('189.1.145.102', 'root', '185101rf', 'relacao')
+#2 C:\xampp\htdocs\relacao2.0\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacaoUnificad...', Array, true)
+#5 C:\xampp\htdocs\relacao2.0\app\Controllers\RelacaoUnificada.php(28): view('relacaoUnificad...', Array)
+#6 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(832): App\Controllers\RelacaoUnificada->index()
+#7 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RelacaoUnificada))
+#8 C:\xampp\htdocs\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

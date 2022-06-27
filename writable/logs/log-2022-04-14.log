@@ -1,0 +1,544 @@
+CRITICAL - 2022-04-14 07:58:16 --> Undefined property: stdClass::$idequipamento
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 139, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(159): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 07:58:48 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-14 07:59:01 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65028096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-14 08:04:56 --> Undefined property: stdClass::$cidade
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 130, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(158): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 08:11:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+CRITICAL - 2022-04-14 08:11:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`relacao`.`equipamento`, CONSTRAINT `ID_PONTO` FOREIGN KEY (`PONTOEQUIPAMENTO`) REFERENCES `ponto` (`IDPONTO`))
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `po...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `po...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `po...')
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `po...', Array, false)
+#4 C:\wamp64\www\relacao2.0\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\wamp64\www\relacao2.0\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\wamp64\www\relacao2.0\app\Controllers\Pontos.php(92): CodeIgniter\BaseModel->delete(Array)
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Pontos->excluir('13')
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pontos))
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-14 09:51:16 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 09:53:22 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 09:53:35 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 09:54:38 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 09:54:54 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 09:58:37 --> There is no data to insert.
+#0 C:\wamp64\www\relacao2.0\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(110): CodeIgniter\Model->insert(Array)
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:00:31 --> There is no data to insert.
+#0 C:\wamp64\www\relacao2.0\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(110): CodeIgniter\Model->insert(Array)
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:00:53 --> There is no data to insert.
+#0 C:\wamp64\www\relacao2.0\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(110): CodeIgniter\Model->insert(Array)
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 10:02:07 --> There is no data to insert.
+#0 C:\wamp64\www\relacao2.0\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\wamp64\www\relacao2.0\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(110): CodeIgniter\Model->insert(Array)
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 11:06:20 --> Attempt to assign property 'NOMEPONTO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'C:\\wamp64\\www\\r...', 110, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:07:49 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\relacao2.0\system\Database\Query.php(312): implode(',', Array)
+#1 C:\wamp64\www\relacao2.0\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\wamp64\www\relacao2.0\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\wamp64\www\relacao2.0\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\wamp64\www\relacao2.0\system\Model.php(138): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\wamp64\www\relacao2.0\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, Array)
+#7 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(108): CodeIgniter\BaseModel->find(Array)
+#8 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#9 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#10 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-14 11:09:45 --> Undefined property: stdClass::$idponto
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 112, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:10:07 --> Undefined property: stdClass::$IDPONTO
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 112, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:10:16 --> Attempt to assign property 'NOMEPONTO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'C:\\wamp64\\www\\r...', 115, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:11:07 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 11:11:41 --> Undefined property: stdClass::$IDPONTO
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 112, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:11:49 --> Undefined property: stdClass::$idponto
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 112, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 11:21:47 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 66, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:32:23 --> Undefined variable: selectServidores
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 65, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(105): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:33:44 --> Too few arguments to function App\Controllers\Relacao::pesquisar(), 0 passed in C:\wamp64\www\relacao2.0\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 13:33:52 --> Too few arguments to function App\Controllers\Relacao::pesquisar(), 0 passed in C:\wamp64\www\relacao2.0\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 13:35:09 --> Undefined variable: id
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 108, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 13:35:23 --> Attempt to assign property 'NOMEPONTO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'C:\\wamp64\\www\\r...', 111, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 13:37:33 --> Trying to get property 'IDPONTO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\r...', 54, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:38:29 --> Undefined property: stdClass::$IDPONTO
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 54, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:38:39 --> Trying to get property 'NOMEPONTO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\r...', 58, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:39:33 --> Trying to get property 'ponto' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\r...', 58, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:39:40 --> Trying to get property 'OBSERVACAO' of non-object
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\r...', 96, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:42:58 --> Undefined property: stdClass::$observacap
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 96, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:43:44 --> Undefined property: stdClass::$observacap
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 96, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:44:01 --> Undefined property: stdClass::$EMAIL
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 111, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:44:15 --> Undefined property: stdClass::$patromonio
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 124, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:44:22 --> Undefined property: stdClass::$patromonio
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 124, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:45:39 --> Undefined property: stdClass::$patromonio
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 124, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:45:44 --> Undefined property: stdClass::$patromonio
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 124, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 13:46:59 --> Undefined property: stdClass::$patromonio
+#0 C:\wamp64\www\relacao2.0\app\Views\relacao.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\r...', 124, Array)
+#1 C:\wamp64\www\relacao2.0\system\View\View.php(210): include('C:\\wamp64\\www\\r...')
+#2 C:\wamp64\www\relacao2.0\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\relacao2.0\system\Common.php(1089): CodeIgniter\View\View->render('relacao', Array, true)
+#4 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(140): view('relacao', Array)
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#7 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 14:06:45 --> Too few arguments to function App\Controllers\Cidades::editar(), 0 passed in C:\wamp64\www\relacao2.0\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Cidades->editar()
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cidades))
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-14 15:05:24 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 50348032 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-14 15:07:30 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 67125248 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-14 15:07:43 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 37119000 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-14 15:18:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:18:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(138): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:31:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:31:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:32:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:32:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 15:32:51 --> Undefined variable: column
+#0 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\r...', 34, Array)
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#3 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-14 15:33:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:33:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:40:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:40:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:40:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:40:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%teste%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 15:44:02 --> Too few arguments to function App\Controllers\Relacao::editar(), 0 passed in C:\wamp64\www\relacao2.0\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->editar()
+#1 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#2 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-14 15:45:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:45:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:45:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:45:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:45:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:45:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-14 15:45:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+CRITICAL - 2022-04-14 15:45:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE '%%'
+                     GROUP BY PONTO.NOMEPONTO' at line 20
+#0 C:\wamp64\www\relacao2.0\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT \r\n      ...', 0)
+#1 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 C:\wamp64\www\relacao2.0\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 C:\wamp64\www\relacao2.0\app\Controllers\Relacao.php(139): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...')
+#4 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(832): App\Controllers\Relacao->pesquisar()
+#5 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relacao))
+#6 C:\wamp64\www\relacao2.0\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\relacao2.0\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

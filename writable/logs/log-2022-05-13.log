@@ -1,0 +1,27 @@
+CRITICAL - 2022-05-13 10:37:07 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:38:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 245383168 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:39:09 --> Allowed memory size of 734003200 bytes exhausted (tried to allocate 343949312 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:39:35 --> Allowed memory size of 734003200 bytes exhausted (tried to allocate 343949312 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:40:28 --> Allowed memory size of 943718400 bytes exhausted (tried to allocate 448806912 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:41:54 --> Allowed memory size of 943718400 bytes exhausted (tried to allocate 448806912 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:43:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 133003848 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:51:00 --> Allowed memory size of 629145600 bytes exhausted (tried to allocate 291520512 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-13 10:55:46 --> Allowed memory size of 629145600 bytes exhausted (tried to allocate 291520512 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
